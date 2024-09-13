@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="form-container">
+      <form class="form" action="https://api.web3forms.com/submit"  method="POST">
+         <input type="hidden" name="access_key" value="9fc4e663-aab4-4e28-8e99-e894c3c42b6e">
+         <input type="hidden" name="subject" value= "new user request from web3forms ">
+        <div class="form-group">
+          <label for="username">username</label>
+          <input required="" name="text" id="text" type="text">
+        </div>
+        <div class="form-group">
+          <label for="email">Company Email</label>
+          <input required="" name="email" id="email" type="email">
+        </div>
+        <div class="form-group">
+          <label for="textarea">How Can We Help You?</label>
+          <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
+        </div>
+        <button type="submit" class="form-submit-btn">Submit</button>
+      </form>
+    </div>
+</body>
+</html>
